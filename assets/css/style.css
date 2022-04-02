@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+  /* Sección menú*/
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: #ffffff !important;
+}
+.logo_menu{
+  width: 40%;
+  margin-left: 8vw;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    padding-right: 4vw;
+  }
+.container-fluid{
+    flex-wrap: unset !important;
+}
+
+/* sección cards*/
+.card-section h1 {
+  text-align: center;
+  color: #707070;
+  font-weight: 700;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+.card-body{
+  padding-bottom: 0 !important;
+}
+hr{
+  margin: 0.5rem  0 !important;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #212529;
+}
+.text_one {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.text_two{
+  font-size: 13px;
+  color: #707070;
+  font-weight: 300;
+}
+
+.div_precios {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
+.div_precio_anterior{
+  padding: 0.1rem;
+}
+.div_precio_nuevo{
+  padding-left: 1rem;
+
+}
+.precio_anterior{
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+  display: inline;
+}
+
+.precio_nuevo{
+  font-size: 20px;
+  color: #28A745;
+  font-weight: 500;
+  display: inline;
+}
+/* sección formulario*/
+.form-section h2{
+  font-weight: 500;
+  font-size: 21px;
+}
+input:placeholder{
+  color: red;
+}
+/* footer*/
+.footer {
+  background: #ffffff;
+  text-align: center;
+}
+.footer img {
+  width: 10%;
+  padding-top: 3vw;
+}
+.footer p{
+  color: #707070;
+  font-weight: 300;
+  font-size: 16px;
+}
+@media (max-width: 575.98px) { 
+    .footer img {
+        width: 30%;
+        padding-top:6vw;
+      
+      }
+ }
